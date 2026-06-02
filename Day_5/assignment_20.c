@@ -11,7 +11,7 @@ int main()
         return 0;
     }
 
-    for (i = 2; i <= n; i++)
+    for (i = 2; i * i <= n; i++)
     {
         while (n % i == 0)
         {
@@ -19,6 +19,11 @@ int main()
             n = n / i;
         }
     }
+    if (n > 1)
+    {
+        largprime = n;
+    }
+
     printf("the largest prime factor is %d", largprime);
 
     return 0;
