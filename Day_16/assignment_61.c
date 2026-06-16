@@ -6,7 +6,7 @@ int main()
     printf("enter the max number(n)-\n");
     scanf("%d", &n);
     int a[n-1];
-    printf("enter the elements of array\n",n-1);
+    printf("enter the elements of array\n");
     for (i = 0; i < n-1; i++)
     {
         scanf("%d", &a[i]);
